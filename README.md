@@ -4,6 +4,16 @@ decided to do it. I've been using Linux for a long time and I've always been
 keen on learning how things work under the hood. I use Artix btw and in this
 project I will document my journey of compiling a custom kernel for my system.
 
+## Repository structure
+Here your will find the following files:
+<p>
+- .config: The kernel configuration<br>
+- .config.old : The old configuration (for backup, comparison and reference)<br>
+- changes: This is the most important file <br> It contains the changes I made to
+the default configuration and also the reason behind each change. <br> I may contain
+bulk changes as I won't need a lot of modules so I disabled them all at once.
+    </p>
+
 # Table of Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
@@ -15,6 +25,8 @@ project I will document my journey of compiling a custom kernel for my system.
 - [Installing the Kernel](#installing-the-kernel)
 - [Configuring the Bootloader](#configuring-the-bootloader)
 - [Conclusion](#conclusion)
+- [Contributing](#contributing)
+- [Resources](#resources)
 
 # Introduction
 The Linux kernel is the core of the operating system. It is responsible for
