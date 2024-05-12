@@ -1,0 +1,67 @@
+----------------------------------< Settings >----------------------------------
+Disable ( )
+        - Intel Pentium 4 clock modulation
+        - Intel cstate performance events
+        - Intel uncore performance events
+        - Cpuidle Driver for Intel Processors
+        - Nouveau (NVIDIA) cards
+        - Intel 8xx/9xx/G3x/G4x/HD Graphics
+        - Intel Xe Graphics
+        - Intel GMA500/600/3600/3650 KMS Framebuffer
+        - Amateur Radio Support
+        - Compressed RAM block device support
+        - Intel TDX (Trust Domain Extensions) - Guest Support
+
+        -- Thermal
+        - Intel Broxton PMIC thermal driver
+        - Intel PCH Thermal Reporting Driver
+        - Intel TCC offset cooling Driver
+        - Intel Hardware Feedback Interface
+
+        -- Device Drivers
+        - PlayStation 2 Trance Vibrator driver support
+        - Apple Cinema Display support
+        - USB Lego Infrared Tower support
+        - Joysticks/Gamepads
+        - Tables
+            - Acecad Flair tablet support (USB)
+            - Aiptek 6000U/8000U and Genius G_PEN tablet support (USB)
+            - Hanwang Art Master III tablet support (USB)
+            - KB Gear JamStudio tablet support (USB)
+            - Pegasus Mobile Notetaker Pen input tablet support
+            - Wacom protocol 4 serial tablet support
+
+        -- USB
+        - EHCI HCD (USB 2.0) support
+        - OHCI HCD (USB 1.1) support
+        - UHCI HCD (most Intel and VIA) support
+
+        -- Virtualization
+        - KVM for Intel (and compatible) processors support
+
+        -- Filesystem support
+        - Reiserfs support (deprecated)
+        - JFS filesystem support
+        - XFS filesystem support
+        - GFS2 file system support
+        - OCFS2 file system support
+        - Btrfs filesystem support ( yeah i know i am a boomer )
+        - NILFS2 file system support
+        - F2FS filesystem support
+        - bcachefs filesystem support (EXPERIMENTAL)
+        - zonefs filesystem support
+
+
+
+
+Enable  - Bootup logo
+        - AMD GPU M to *
+        - ATI Radeon M to *
+        - Timer frequency from 500 to 1000 Hz
+        - USB Type-C Support M to *
+
+        -- Virtualization
+        - Kernel-based Virtual Machine (KVM) support M to *
+
+        -- Kernel Modules
+        - Module debugging
